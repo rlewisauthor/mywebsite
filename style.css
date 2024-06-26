@@ -1,0 +1,65 @@
+/*
+ Theme Name: My Custom Theme
+ Theme URI: http://example.com/my-custom-theme
+ Author: Your Name
+ Author URI: http://example.com
+ Description: A custom theme to showcase image links and navigation.
+ Version: 1.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: custom, theme
+ Text Domain: my-custom-theme
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-links a {
+    display: block;
+    margin: 10px;
+}
+
+.image-links img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #333;
+}
